@@ -1,0 +1,188 @@
+/*Keep on improving this website! This is your beautiful portfolio, after all! When something new comes out, 
+try it out here and try to make it work. When you learn something new that is interesting and you think will look nice here, 
+try it out! Keep on improving! */
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("http://i.imgur.com/iCzBQrz.jpg");
+	font-family:"duru sans";
+}
+#innerwrapper {
+	max-width: 65%;
+	margin:1em auto;
+	margin-top:150px;
+	margin-bottom:50px;
+	background-color:#ffffff;
+	box-shadow:1px 1px 4px 1px rgba(0,0,0,0.3);
+	padding:3em 3em 3em 3em;
+	border-radius:2px;
+}
+#e-mails p{
+	padding-top:1em;
+	padding-bottom:1em;
+	max-width: 95%;
+}
+.primary{
+	background-color:#3498db;
+	border-radius:4px;
+	padding:10px;
+	border:1px solid #34495e;
+	font-size:20px;
+}
+.primary:hover{
+	background-color:#2980b9;
+	cursor:pointer;
+}
+#last{
+	margin:1em auto;
+	margin-bottom:3em;
+	max-width:65%;
+}
+img{
+	float:left;
+	margin-left:2em;
+	margin-top:1em;
+}
+img:hover{
+	box-shadow: 1px 1px 1px 1px;
+}
+nav ul li {
+	display:inline-block;
+	list-style-type: none;
+	font-family:"open sans";
+	font-size:18px;
+	font-weight:bold;
+	border:2px solid #ffffff;
+	margin:0 1px;
+	border-radius:2px;
+}
+nav ul li a {
+	color:#ffffff;
+	display:inline-block;
+	line-height:30px;
+	padding:20px 25px;
+	text-decoration: none;
+	font:18px "open sans", sans-serif;
+	font-weight:bold;
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-ms-transition: all 0.6s;
+	-o-transition:all 0.6s;
+	transition: all 0.6s;
+}
+nav ul li a:hover{
+	background-color:#ffffff;
+	color:#2980b9;
+	text-decoration: none;
+}
+nav{
+	background-color:#3498db;
+	border:1px solid #16a085;
+	box-shadow: 0px 2px 1px 0px;
+	color:#2c3e50;
+	display:block;
+	overflow:hidden;
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+	padding-top:15px;
+	padding-bottom:15px;
+	position:fixed;
+	top:0;
+}
+h1{
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+	font-family:"Gafata", sans-serif;
+	color:#34495e;
+	font-weight:bold;
+	font-size:50px;
+	margin-bottom: 15px;
+	padding-top:15px;
+}
+#list{
+	float:right;
+	margin-right:1em;
+}
+#name{
+	float:left;
+	text-transform: none;
+	border:none;
+	margin-left:1em;
+}
+#hgroup h1 {
+	margin-bottom: 0;
+}
+p{
+	font-size:20px;
+	line-height: 1.425em;
+	font-family:'Fenix', serif;
+}
+header{
+	 -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+	text-align: center;
+	display:block;
+	background-color: #bdc3c7;
+	height: 30px;
+	font-family:"duru sans";
+	font-weight:300;
+	font-size:18px;
+	padding-top: 15px;
+}
+header:hover{
+	background-color:#7f8c8d;
+}
+h1:hover{
+	color:#95a5a6;
+}
+a:hover{
+	color:#2980b9;
+	text-decoration: underline;
+}
+a{
+	color:#34495e;
+	text-decoration: none;
+}
+
+.header {
+	font-weight: normal;
+	color:#34495e;
+	font-size: 30px;
+	height:40px;
+	padding: 0;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+h2 {
+	font-weight:bold;
+	font-size:35px;
+	color:#34495e;
+	padding-top: 40px;
+	margin: 0px;
+	padding-bottom:10px;
+}
+
+footer {
+	text-align: center;
+	margin: 0px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	font-weight:300;
+	font-color:#ffffff;
+	background-color:#3498db;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
